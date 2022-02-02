@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>USUARIOS-PREMIUM|MARIO PADILLA</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    </head>
+    <body>
+        <script type="text/javascript">
+            const users = [
+            {username: 'ppc90', age: 30, premium: false},
+            {username: 'lu65', age: 24, premium: true},
+            {username: 'maria3', age: 36, premium: false},
+            {username: 'abc123', age: 30, premium: false},
+            {username: 'sergio58', age: 30, premium: true},
+            ];
+            users.map(function(users){
+                if(users.premium==false){
+                    console.log(users.username+" con edad: "+users.age +" no es usuario premium");
+
+                }else{
+                    console.log(users.username+" con edad: "+users.age+" es usuario premium");
+                }
+            });
+            
+    
+            </script>
+    </body>
+   
+</html>
